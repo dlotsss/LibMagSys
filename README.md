@@ -49,3 +49,12 @@ The application is built using a modular structure following the MVC (Model-View
 - **Views:** Contain the presentation layer (HTML, CSS, and embedded PHP) that renders the user interface.
 - **Controllers:** Act as intermediaries between models and views, processing incoming HTTP requests and performing appropriate actions.
 
+### Core Components:
+
+*Authentication Module:* Validates users, managing login, registration, and session data.
+
+*Book Management:* Involves adding, editing, deleting, and searching for books. Controllers interact with Models to update or retrieve data which is then passed on to Views for display.
+
+*Transaction Handling:* Records the borrowing and returning of books, ensuring data consistency with proper use of transactions and error handling.
+
+*Error Handling:* Incorporated across the application to handle issues like database connection errors or invalid user inputs gracefully.
