@@ -60,4 +60,4 @@ The application is built using a modular structure following the MVC (Model-View
 *Error Handling:* Incorporated across the application to handle issues like database connection errors or invalid user inputs gracefully.
 
 ## Contributing
-Contributions are welcome. If you wish to improve the project or add new features,
+Contributions are welcome. If you wish to improve the project or add new features, feel free to fork the repository
