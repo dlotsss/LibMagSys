@@ -40,3 +40,12 @@ if ($conn->connect_error) {
 ```
 
 Make sure to replace `your_db_username` and `your_db_password` with your actual database credentials.
+
+## Application Logic
+
+The application is built using a modular structure following the MVC (Model-View-Controller) design pattern:
+
+- **Models:** Handle all data-related operations and business logic.
+- **Views:** Contain the presentation layer (HTML, CSS, and embedded PHP) that renders the user interface.
+- **Controllers:** Act as intermediaries between models and views, processing incoming HTTP requests and performing appropriate actions.
+
