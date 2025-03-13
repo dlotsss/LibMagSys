@@ -61,3 +61,6 @@ The application is built using a modular structure following the MVC (Model-View
 
 ## Contributing
 Contributions are welcome. If you wish to improve the project or add new features, feel free to fork the repository and submit a pull request.
+
+## License
+This project is licensed under the MIT License.
