@@ -18,3 +18,25 @@ git clone https://github.com/dlotsss/Libbook.git
 
 4. Configure your database credentials in the configuration file (e.g., update the variables in `config.php`).
 
+## Database Connection
+
+The application uses PHP's MySQLi extension to connect to the database. Below is an example of the database connection code:
+
+```php
+<?php
+$host     = "localhost"; // Database host
+$username = "your_db_username"; // Database username
+$password = "your_db_password"; // Database password
+$database = "libbook_db"; // Database name
+
+// Create connection
+$conn = new mysqli($host, $username, $password, $database);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?>
+```
+
+Make sure to replace `your_db_username` and `your_db_password` with your actual database credentials.
