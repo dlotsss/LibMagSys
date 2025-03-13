@@ -58,3 +58,5 @@ The application is built using a modular structure following the MVC (Model-View
 *Transaction Handling:* Records the borrowing and returning of books, ensuring data consistency with proper use of transactions and error handling.
 
 *Error Handling:* Incorporated across the application to handle issues like database connection errors or invalid user inputs gracefully.
+
+## Contributing
